@@ -30,7 +30,7 @@ jobs:
         run: npx mochawesome-report-generator cypress/reports/report.json -o cypress/reports/html
 
       - name: Upload report artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cypress-report
           path: cypress/reports/html
