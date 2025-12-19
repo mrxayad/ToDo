@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+    "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "target": "esnext",
+    "strict": true,
+    "types": ["cypress","jest", "@testing-library/jest-dom"]
+
+  }
+
+
+}
